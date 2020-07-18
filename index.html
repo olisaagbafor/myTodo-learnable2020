@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Todo</title>
+    <link rel="stylesheet" href="library/bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+ <div class="container-fluid bg-inverse text-center">
+     <h1 class="text-white py-5">My Todo</h1>
+ </div>
+ <div class="container">
+     <div class="row justify-content-center">
+         <div class="col-md-8">
+             <div class="row justify-content-center mt-3">
+                 <div class="col-md-12">
+                     <p id="message-box" class="text-center bg-faded px-4 rounded"></p>
+                 </div>
+             </div>
+             <div class="card bg-faded my-3">
+                 <div class="card-header">
+                     <h4 class="text-center py-2">Organise Your Task</h4>
+                     <div class="row justify-content-center">
+                         <div class="col-md-10">
+                             <form action="#">
+                                 <div class="input-group">
+                                     <input type="text" id="input" class="form-control">
+                                     <button id="add-todo" type="button">Add Todo</button>
+                                 </div>
+                             </form>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="card-body">
+                     <div class="row">
+                         <div class="col-md-12">
+                             <ul id="list" class="list-group list m-3">
+                             </ul>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="card-footer">
+                     <div class="row justify-content-center my-2">
+                         <button id="clear-todo" class="btn btn-warning btn-sm">clear all</button>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </div>
+ <div class="container-fluid bg-inverse text-center">
+     <h3 class="text-white py-5">CopyRight &copy; Genesys Tech Hub</h3>
+ </div>
+</body>
+<script src="library/core.js"></script>
+</html>
